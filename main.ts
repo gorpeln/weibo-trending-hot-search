@@ -10,7 +10,7 @@ const regexp = /<a href="(\/weibo\?q=[^"]+)".*?>(.+)<\/a>/g;
 
 const response = await fetch("https://s.weibo.com/top/summary", {
   headers: {
-    "Cookie": "SUB=_2A25Jt-NNDeRhGeFK7lcQ9y3PyDWIHXVqxVOFrDV8PUNbmtANLXnmkW9NQ1fV1UDiUsSDO_r7Px6jMV4bwwX9_w6A"
+    "Cookie": "SUB=_2A25Jt-NNDeRhGeFK7lcQ9y3PyDWIHXVqxVOFrDV8PUNbmtANLXnmkW9NQ1fV1UDiUsSDO_r7Px6jMV4bwwX9_w6A",
   },
 });
 if (!response.ok) {

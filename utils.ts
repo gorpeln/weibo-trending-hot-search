@@ -2,7 +2,6 @@ import type { Word } from "./types.ts";
 
 /**
  * 合并两次热门话题并根据**内容**去重，新的覆盖旧的
- *
  */
 export function mergeWords(
   words: Word[],
