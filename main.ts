@@ -38,7 +38,6 @@ if (await exists(fullPath)) {
 
 // 保存原始数据
 const queswordsAll = mergeWords(words, wordsAlreadyDownload);
-console.log(queswordsAll); // 调试输出
 await Deno.writeTextFile(fullPath, JSON.stringify(queswordsAll));
 
 // 更新 README.md
@@ -46,7 +45,7 @@ const readme = await createReadme(queswordsAll);
 await Deno.writeTextFile("./README.md", readme);
 
 // 获取前10条内容
-const recentContent = queswordsAll.slice(0, 5).map((obj) => obj.text).join("\n");
+const recentContent = queswordsAll.slice(0, 10).map(obj => `[${obj.title}](${obj.url})`).join("\n");
 
 // 将前10条内容写入 RECENT.md 文件
 await Deno.writeTextFile("./RECENT.md", recentContent);
