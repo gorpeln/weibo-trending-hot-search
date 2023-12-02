@@ -1,24 +1,5 @@
-# weibo-trending-hot-search
-
-微博热搜榜，记录从 2023-07-16 日开始的微博热门搜索。每天抓取一次数据，按天[归档](./archives)。
-
-## 今日热门搜索
-
-<!-- BEGIN -->
-<!-- 最后更新时间 Sat Dec 02 2023 19:30:23 GMT+0800 (China Standard Time) -->
-
-1. [undefined](https://s.weibo.comundefined)
-1. [undefined](https://s.weibo.comundefined)
-1. [undefined](https://s.weibo.comundefined)
-1. [undefined](https://s.weibo.comundefined)
-1. [undefined](https://s.weibo.comundefined)
-1. [undefined](https://s.weibo.comundefined)
-
-<!-- END -->
-
-历史归档 [./archives](./archives)
-
-### License
-
-[weibo-trending-hot-search](https://github.com/gorpeln/weibo-trending-hot-search) 的源码使用 MIT License
-发布。具体内容请查看 [LICENSE](./LICENSE) 文件。
+1. [习近平视察武警海警总队东海海区指挥部](https://s.weibo.com/weibo?q=%23%E4%B9%A0%E8%BF%91%E5%B9%B3%E8%A7%86%E5%AF%9F%E6%AD%A6%E8%AD%A6%E6%B5%B7%E8%AD%A6%E6%80%BB%E9%98%9F%E4%B8%9C%E6%B5%B7%E6%B5%B7%E5%8C%BA%E6%8C%87%E6%8C%A5%E9%83%A8%23&Refer=new_time)
+2. [赵露思 小红书广告](https://s.weibo.com/weibo?q=%E8%B5%B5%E9%9C%B2%E6%80%9D%20%E5%B0%8F%E7%BA%A2%E4%B9%A6%E5%B9%BF%E5%91%8A&t=31&band_rank=1&Refer=top)
+3. [男子打球猝死工作人员抢下黄金四分钟](https://s.weibo.com/weibo?q=%23%E7%94%B7%E5%AD%90%E6%89%93%E7%90%83%E7%8C%9D%E6%AD%BB%E5%B7%A5%E4%BD%9C%E4%BA%BA%E5%91%98%E6%8A%A2%E4%B8%8B%E9%BB%84%E9%87%91%E5%9B%9B%E5%88%86%E9%92%9F%23&t=31&band_rank=50&Refer=top)
+4. [我国纳米金属研究领域取得新突破](https://s.weibo.com/weibo?q=%23%E6%88%91%E5%9B%BD%E7%BA%B3%E7%B1%B3%E9%87%91%E5%B1%9E%E7%A0%94%E7%A9%B6%E9%A2%86%E5%9F%9F%E5%8F%96%E5%BE%97%E6%96%B0%E7%AA%81%E7%A0%B4%23&t=31&band_rank=3&Refer=top)
+5. [摇粒绒 保暖](https://s.weibo.com/weibo?q=%E6%91%87%E7%B2%92%E7%BB%92%20%E4%BF%9D%E6%9A%96&t=31&band_rank=50&Refer=top)
