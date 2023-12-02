@@ -48,7 +48,7 @@ await Deno.writeTextFile("./README.md", readme);
 const recentContent = queswordsAll.slice(0, 5).map((obj, index) => `${index + 1}. [${obj.title}](https://s.weibo.com${obj.url})  \n`).join("");
 
 // 将前5条内容写入 RECENT.md 文件
-await Deno.writeTextFile("./RECENT.md", recent);
+await Deno.writeTextFile("./RECENT.md", recentContent);
 
 // 更新 archives
 const archiveText = createArchive(queswordsAll, yyyyMMdd);
