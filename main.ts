@@ -46,7 +46,7 @@ const readme = await createReadme(queswordsAll);
 await Deno.writeTextFile("./README.md", readme);
 
 // 获取前10条内容
-const recentContent = queswordsAll.slice(0, 5).map(obj => obj.text).join("\n");
+const recentContent = queswordsAll.slice(0, 5).map((obj) => obj.text).join("\n");
 
 // 将前10条内容写入 RECENT.md 文件
 await Deno.writeTextFile("./RECENT.md", recentContent);
