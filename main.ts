@@ -39,23 +39,15 @@ if (await exists(fullPath)) {
 // 保存原始数据
 const queswordsAll = mergeWords(words, wordsAlreadyDownload);
 await Deno.writeTextFile(fullPath, JSON.stringify(queswordsAll));
-console.log(queswordsAll); // 调试输出
 
 // 更新 README.md
 const readme = await createReadme(queswordsAll);
 await Deno.writeTextFile("./README.md", readme);
 
-// 获取前10条内容
-const recentContent = queswordsAll.slice(0, 5).map((obj, index) => `${index + 1}. [${obj.title}](${obj.url})  \n`).join(
-  "",);
-console.log(recentContent); // 调试输出
+// 获取前5条内容
+const recentContent = queswordsAll.slice(0, 5).map((obj, index) => `${index + 1}. [${obj.title}](https://s.weibo.com${obj.url})  \n`).join("");
 
-// 将 recentContent 转换为数组
-const recentContentArray = recentContent.split('\n');
-console.log(recentContentArray);
-
-// 将前10条内容写入 RECENT.md 文件
-const recent = await createReadme(recentContentArray);
+// 将前5条内容写入 RECENT.md 文件
 await Deno.writeTextFile("./RECENT.md", recent);
 
 // 更新 archives
