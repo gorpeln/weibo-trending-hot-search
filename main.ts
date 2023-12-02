@@ -44,6 +44,12 @@ await Deno.writeTextFile(fullPath, JSON.stringify(queswordsAll));
 const readme = await createReadme(queswordsAll);
 await Deno.writeTextFile("./README.md", readme);
 
+// 获取前10条内容
+const recentContent = queswordsAll.slice(0, 10).join("\n");
+
+// 将前10条内容写入 RECENT.md 文件
+await Deno.writeTextFile("./RECENT.md", recentContent);
+
 // 更新 archives
 const archiveText = createArchive(queswordsAll, yyyyMMdd);
 const archivePath = join("archives", `${yyyyMMdd}.md`);
