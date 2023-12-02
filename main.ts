@@ -38,6 +38,7 @@ if (await exists(fullPath)) {
 
 // 保存原始数据
 const queswordsAll = mergeWords(words, wordsAlreadyDownload);
+console.log(queswordsAll); // 调试输出
 await Deno.writeTextFile(fullPath, JSON.stringify(queswordsAll));
 
 // 更新 README.md
