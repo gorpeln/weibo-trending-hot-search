@@ -26,7 +26,7 @@ export function createList(words: Word[]): string {
   return `<!-- BEGIN -->
 <!-- 最后更新时间 ${Date()} -->
 ${
-    words.map((x) => `1. [${x.title}](https://s.weibo.com/${x.url})`)
+    words.map((x) => `1. [${x.title}](https://s.weibo.com${x.url})`)
       .join("\n")
   }
 <!-- END -->`;
