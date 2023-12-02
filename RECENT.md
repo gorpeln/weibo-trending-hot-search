@@ -1,5 +1,24 @@
-1. [习近平向2023年读懂中国国际会议致贺信](/weibo?q=%23%E4%B9%A0%E8%BF%91%E5%B9%B3%E5%90%912023%E5%B9%B4%E8%AF%BB%E6%87%82%E4%B8%AD%E5%9B%BD%E5%9B%BD%E9%99%85%E4%BC%9A%E8%AE%AE%E8%87%B4%E8%B4%BA%E4%BF%A1%23&Refer=new_time)
-2. [摇粒绒 保暖](/weibo?q=%E6%91%87%E7%B2%92%E7%BB%92%20%E4%BF%9D%E6%9A%96&t=31&band_rank=50&Refer=top)
-3. [四川孃孃51岁拿下电竞冠军](/weibo?q=%E5%9B%9B%E5%B7%9D%E5%AD%83%E5%AD%8351%E5%B2%81%E6%8B%BF%E4%B8%8B%E7%94%B5%E7%AB%9E%E5%86%A0%E5%86%9B&t=31&band_rank=28&Refer=top)
-4. [我国纳米金属研究领域取得新突破](/weibo?q=%23%E6%88%91%E5%9B%BD%E7%BA%B3%E7%B1%B3%E9%87%91%E5%B1%9E%E7%A0%94%E7%A9%B6%E9%A2%86%E5%9F%9F%E5%8F%96%E5%BE%97%E6%96%B0%E7%AA%81%E7%A0%B4%23&t=31&band_rank=3&Refer=top)
-5. [田曦薇 年画娃娃](/weibo?q=%E7%94%B0%E6%9B%A6%E8%96%87%20%E5%B9%B4%E7%94%BB%E5%A8%83%E5%A8%83&t=31&band_rank=6&Refer=top)
+# weibo-trending-hot-search
+
+微博热搜榜，记录从 2023-07-16 日开始的微博热门搜索。每天抓取一次数据，按天[归档](./archives)。
+
+## 今日热门搜索
+
+<!-- BEGIN -->
+<!-- 最后更新时间 Sat Dec 02 2023 19:30:23 GMT+0800 (China Standard Time) -->
+
+1. [undefined](https://s.weibo.comundefined)
+1. [undefined](https://s.weibo.comundefined)
+1. [undefined](https://s.weibo.comundefined)
+1. [undefined](https://s.weibo.comundefined)
+1. [undefined](https://s.weibo.comundefined)
+1. [undefined](https://s.weibo.comundefined)
+
+<!-- END -->
+
+历史归档 [./archives](./archives)
+
+### License
+
+[weibo-trending-hot-search](https://github.com/gorpeln/weibo-trending-hot-search) 的源码使用 MIT License
+发布。具体内容请查看 [LICENSE](./LICENSE) 文件。

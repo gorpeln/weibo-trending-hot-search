@@ -47,11 +47,12 @@ await Deno.writeTextFile("./README.md", readme);
 
 // 获取前10条内容
 const recentContent = queswordsAll.slice(0, 5).map((obj, index) => `${index + 1}. [${obj.title}](${obj.url})  \n`).join(
-  "",);
+  "",
+);
 console.log(recentContent); // 调试输出
 
 // 将 recentContent 转换为数组
-const recentContentArray = recentContent.split('\n');
+const recentContentArray = recentContent.split("\n");
 console.log(recentContentArray);
 
 // 将前10条内容写入 RECENT.md 文件
